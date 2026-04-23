@@ -1,0 +1,4 @@
+row_number;case_id;expected_severity;expected_code;description
+1;fecha_fora_do_intervalo_documentado;warning;fecha_outside_header_range;A data da linha excede fecha_max em um dia.
+2;quantidade_liquida_maior_que_bruta;warning;cantidad_neta_exceeds_bruta;Ajuste líquido positivo maior que o valor bruto vendido.
+3;quantidade_positiva_valor_liquido_negativo;warning;positive_quantity_negative_net_sale;Linha real da base em que quantidade líquida positiva convive com venda líquida negativa.

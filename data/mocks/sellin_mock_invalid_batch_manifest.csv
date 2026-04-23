@@ -1,0 +1,7 @@
+row_number;case_id;expected_severity;expected_code;description
+3;lote_data_formato_invalido;error;invalid_date_format;Linha real adulterada com fecha em YYYY-MM-DD.
+5;lote_sku_ausente;error;blank_required_field;Linha real com id_sku removido para simular quebra de carga.
+7;lote_valor_nao_numerico;error;invalid_decimal;Linha real com texto em venta para simular planilha digitada errado.
+9;lote_quantidade_bruta_corrompida;error;cantidad_bruta_must_equal_cantidad;Linha real com cantidad_bruta adulterada acima de cantidad.
+11;lote_preco_zerado;error;precio_must_be_positive_when_cantidad_positive;Linha real de venda com preco zerado para forcar rejeicao.
+13;lote_chave_duplicada;error;duplicate_business_key;A ultima linha replica a chave de negocio da linha anterior.

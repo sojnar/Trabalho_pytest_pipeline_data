@@ -1,0 +1,7 @@
+pandas==2.2.2
+minio==7.2.7
+sqlalchemy==1.4.54
+psycopg2-binary==2.9.9
+pytest==8.3.2
+hypothesis==6.112.1
+faker==28.4.1

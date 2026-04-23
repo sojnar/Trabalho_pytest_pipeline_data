@@ -1,0 +1,11 @@
+row_number;case_id;expected_severity;expected_code;description
+1;data_com_formato_invalido;error;invalid_date_format;fecha foi convertida de DD/MM/YYYY para YYYY-MM-DD.
+2;ano_semana_inconsistente;error;anio_semana_mismatch;anio_semana não bate com a semana ISO de fecha.
+3;quantidade_bruta_negativa;error;negative_gross_metric;Quantidade bruta e quantidade principal ficaram negativas.
+4;quantidade_bruta_diferente_da_cantidad;error;cantidad_bruta_must_equal_cantidad;cantidad_bruta deixou de ser igual a cantidad.
+5;valor_bruto_sem_quantidade;error;venta_must_be_zero_when_cantidad_zero;Quantidade zerada com venda positiva.
+6;preco_zero_com_quantidade_positiva;error;precio_must_be_positive_when_cantidad_positive;Linha de venda com preço unitário zerado.
+7;volume_bruto_inconsistente;error;volumen_bruto_formula_mismatch;volumen_bruto foi corrompido e não fecha com o fator por SKU.
+8;sku_ausente;error;blank_required_field;id_sku foi removido da linha.
+9;valor_nao_numerico;error;invalid_decimal;venta recebeu um texto inválido em vez de número.
+11;chave_duplicada;error;duplicate_business_key;A última linha repete a chave de negócio da linha anterior.
